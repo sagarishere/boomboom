@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "your_project_name"
+version = "0.1.0"
+description = "A description of your project"
+authors = ["Your Name <your.email@example.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.23.0"
+pandas = "^1.4.0"
+scikit-learn = "^1.1.0"
+torch = "^1.12.0"
+torchvision = "^0.13.0"
+pillow = "^9.1.0"           # 'PIL' is provided by the 'Pillow' library
+matplotlib = "^3.5.0"
+face_recognition = "^1.3.0"
+argparse = "^1.4.0"         # Note: argparse is part of the standard library and doesn't need to be installed separately
+tensorflow = "^2.9.0"
+keras = "^2.9.0"
+tk = "^0.1.0"               # Note: 'tk' might refer to 'tkinter' which is part of the standard library
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

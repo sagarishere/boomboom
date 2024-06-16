@@ -1,0 +1,17 @@
+.DS_Store
+image*
+*.mp4
+*.png
+!images/
+!README.md
+fer2013.tar.gz
+target/
+data/test.csv
+data/train_filtered.csv
+data/train_without_faces_cnn_hog.csv
+data/test_with_emotions.csv
+data/icml_face_data.csv
+data/train.csv
+*.csv
+data/
+

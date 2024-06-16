@@ -1,0 +1,13 @@
+numpy
+pandas
+scikit-learn
+torch
+torchvision
+PIL
+matplotlib
+face_recognition
+time
+argparse
+tensorflow
+keras
+tk
